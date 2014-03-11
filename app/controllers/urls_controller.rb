@@ -23,7 +23,7 @@ class UrlsController < ApplicationController
 
   def shorturl
     @url = Url.find_by_shortened(params[:short_ened])
-    p "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    # p "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
     p @url
     # @url.click_count += 1
     # @url.save
